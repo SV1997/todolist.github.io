@@ -101,7 +101,7 @@ var todolistapp = (function () {
       const currentTask = task[0];
       currentTask.done = !currentTask.done;
       renderList(tasks);
-      showNotification("toggle successfully");
+      showNotification("successfully completed task");
       completepercentage();
       return;
     }
